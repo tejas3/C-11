@@ -17,6 +17,14 @@ int main()
 
   cout << x;
   cout << y;
+  
+  
+  //************************************************//
+  std::string yes, no;
+  std::tie(yes, no) = std::make_pair("yes", "no");
 
+  cout << yes;
+  cout << no;
+  
   return 0;
 }
